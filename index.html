@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Zalex1902">
+        <meta name="description" content="Z-STORE l' e-commerce n. 1 in Italia">
+        <meta name="keywords" content="Z-STORE, e-commerce, moda, moda uomo, moda donna, moda bambino, vestiti, shopping online">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Z-STORE | Moda Uomo Donna Bambino</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2ad52fa6a6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="l-header" id="header">
+            <nav class="nav bd-grid">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-th"></i>
+                </div>
+                <a href="#" class="nav__logo">Z-STORE</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__lista">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#novità" class="nav__link">Novità</a></li>
+                        <li class="nav__item"><a href="#saldi" class="nav__link">Saldi</a></li>
+                        <li class="nav__item"><a href="#prodotti" class="nav__link">Prodotti</a></li>
+                        <li class="nav__item"><a href="#info" class="nav__link">Info</a></li>
+                        <li class="nav__item"><a href="carrello.html" class="nav__link">Carrello</a></li>
+                    </ul>
+                </div>
+                <div class="nav__user">
+                    <a href="profilo.html" class="nav__user-link"><i class="fas fa-user"></i></a>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__dati">
+                        <h1 class="home__titolo">IL TUO STILE, LA TUA VITA!</h1> <!--modifica br-->
+                        <p class="home__descrizione">
+                            Noi di Z-STORE ci impegniamo ad offrirti i migliori 
+                            capi sul mercato a prezzi imbattibili.<br> Qualità e 
+                            convenienza a portata di click!
+                        </p>
+                        <a href="#novità" class="button">Scopri di più</a>
+                    </div>
+                </div>
+            </section>
+            <section class="novità sezione" id="novità">
+                <h2 class="sezione-titolo">NOVITA'</h2>
+                <div class="novita__container bd-grid">
+                    <article class="genere">
+                        <!--<div class="genere__new">New</div>-->
+                        <img src="/foto/foto-principali/pexels-johanser-martinez-5372767.jpg" alt="" class="genere__img">
+                        <span class="genere__nome">UOMO</span>
+                        <a href="#" class="button-light">Scopri di più <i class="fas fa-arrow-right button-icon"></i></a>
+                        <a href="#prodotti" class="clickable-btn"></a>
+                    </article>
+                    <article class="genere">
+                        <!--<div class="genere__new">New</div>-->
+                        <img src="/foto/foto-principali/pexels-fabio-scaletta-2062850 (1).jpg" alt="" class="genere__img">
+                        <span class="genere__nome">DONNA</span>
+                        <a href="#" class="button-light">Scopri di più <i class="fas fa-arrow-right button-icon"></i></a>
+                        <a href="#prodotti" class="clickable-btn"></a>
+                    </article>
+                    <article class="genere">
+                        <!--<div class="genere__new">New</div>-->
+                        <img src="/foto/foto-principali/pexels-victoria-borodinova-1620760.jpg" alt="" class="genere__img">
+                        <span class="genere__nome">BAMBINO</span>
+                        <a href="#" class="button-light">Scopri di più <i class="fas fa-arrow-right button-icon"></i></a>
+                        <a href="#prodotti" class="clickable-btn"></a>
+                    </article>
+                </div>
+                <div class="saldi">
+                    <div class="saldi__slider">
+                        <div class="saldi__slide attiv">
+                            <img src="/foto/altre-foto/pexels-elijah-o'donnell-2409681 (1).jpg" alt="">
+                            <div class="saldi__info">
+                                <h2>Saldi autunnali 2021</h2>
+                                <p>Da questo mese sconti fino al 70% su tutti i capi ed accessori autunnali</p>
+                            </div>
+                            <a href="#" class="button saldi__btn">Scopri</a>
+                        </div>
+                        <div class="saldi__slide">
+                            <img src="/foto/altre-foto/pexels-erik-mclean-4061385.jpg" alt="">
+                            <div class="saldi__info">
+                                <h2>Nuova collezione scarpe 2021</h2>
+                                <p>Grandi sconti su marche famose come Nike, Adidas, Gucci o Dolce Gabbana</p>
+                            </div>
+                            <a href="#" class="button saldi__btn">Scopri</a>
+                        </div>
+                        <div class="saldi__slide">
+                            <img src="/foto/altre-foto/pexels-mart-production-8801073.jpg" alt="">
+                            <div class="saldi__info">
+                                <h2>Pazzi per gli accessori</h2>
+                                <p>Con un minimo di 100€ di spesa ricevi uno sconto di 20€ su un accessorio a scelta</p>
+                            </div>
+                            <a href="#" class="button saldi__btn">Scopri</a>
+                        </div>
+                        <div class="saldi__slide">
+                            <img src="/foto/altre-foto/pexels-daniel-adesina-833052.jpg" alt="">
+                            <div class="saldi__info">
+                                <h2>Moda urbana - Milano</h2>
+                                <p>Scopri gli ultimi prodotti urban realizzati dai più grandi stilisti milanesi</p>
+                            </div>
+                            <a href="#" class="button saldi__btn">Scopri</a>
+                        </div>
+                        <div class="saldi__slide">
+                            <img src="/foto/altre-foto/pexels-polina-kovaleva-7089521.jpg" alt="">
+                            <div class="saldi__info">
+                                <h2>Expo Mondiale dell' Alta Moda</h2>
+                                <p>Tieniti aggiornato sui migliori capi dell' Expo Mondiale 2021</p>
+                            </div>
+                            <a href="#" class="button saldi__btn">Scopri</a>
+                        </div>
+                        <div class="saldi__navigazione">
+                            <div class="btn attiv"></div>
+                            <div class="btn"></div>
+                            <div class="btn"></div>
+                            <div class="btn"></div>
+                            <div class="btn"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--<section class="saldi">
+                <h2 class="sezione-titolo">SALDI</h2>
+                
+            </section>-->
+            <!--prova inizia-->
+            <!--<section class="saldi">--> <!--metti anche sezione?-->
+                <!--<h2 class="sezione-titolo">SALDI</h2>-->
+                <!--<div class="saldi__container">
+                    <div class="saldi__slides">
+                        <input type="radio" name="radio-btn" id="radio-1">
+                        <input type="radio" name="radio-btn" id="radio-2">
+                        <input type="radio" name="radio-btn" id="radio-3">
+                        <input type="radio" name="radio-btn" id="radio-4">
+                        <div class="saldi__slide primo">
+                            <img src="/foto/altre-foto/pexels-elijah-o'donnell-2409681 (1).jpg" alt="">
+                            <div class="prova-1">
+                                <h3>sconti 30%</h3>
+                                <p>su tutti i prodotti</p>
+                                <button>scopri</button>
+                            </div>
+                        </div>
+                        <div class="saldi__slide">
+                            <img src="/foto/altre-foto/pexels-erik-mclean-4061385.jpg" alt="">
+                            <div class="prova-1">
+                                <h3>sconti 30%</h3>
+                                <p>su tutti i prodotti</p>
+                                <button>scopri</button>
+                            </div>
+                        </div>
+                        <div class="saldi__slide">
+                            <img src="/foto/altre-foto/pexels-mart-production-8801073.jpg" alt="">
+                        </div>
+                        <div class="saldi__slide">
+                            <img src="/foto/altre-foto/pexels-daniel-adesina-833052.jpg" alt="">
+                        </div>
+                        <div class="saldi__auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <div class="saldi__manuale">
+                        <label for="radio-1" class="manuale-btn"></label>
+                        <label for="radio-2" class="manuale-btn"></label>
+                        <label for="radio-3" class="manuale-btn"></label>
+                        <label for="radio-4" class="manuale-btn"></label>
+                    </div>
+                </div>-->
+            <!--</section>-->
+            <!--prova finisce-->
+            <section class="showcase sezione" id="saldi">
+                <h2 class="sezione-titolo">SALDI</h2>
+                <div class="showcase__container bd-grid">
+                    <div class="showcase__card" id="showcase__card1">
+                        <div class="showcase__dati">
+                            <h3 class="showcase__nome">Nike</h3>
+                            <p class="showcase__descrizione">Sconti fino al 50%</p>
+                            <a href="#" class="button-light showcase__scopri">Scopri di più <i class="fas fa-arrow-right button-icon"></i></a>
+                        </div>
+                        <a href="#prodotti" class="clickable-btn"></a>
+                    </div>
+                    <div class="showcase__card" id="showcase__card2">
+                        <div class="showcase__dati">
+                            <h3 class="showcase__nome">Adidas</h3>
+                            <p class="showcase__descrizione">Sconti fino al 60%</p>
+                            <a href="#" class="button-light showcase__scopri">Scopri di più <i class="fas fa-arrow-right button-icon"></i></a>
+                        </div>
+                        <a href="#prodotti" class="clickable-btn"></a>
+                    </div>
+                    <div class="showcase__card" id="showcase__card3">
+                        <div class="showcase__dati">
+                            <h3 class="showcase__nome">Levi's</h3>
+                            <p class="showcase__descrizione">Sconti fino al 40%</p>
+                            <a href="#" class="button-light showcase__scopri">Scopri di più <i class="fas fa-arrow-right button-icon"></i></a>
+                        </div>
+                        <a href="#prodotti" class="clickable-btn"></a>
+                    </div>
+                    <div class="showcase__card" id="showcase__card4">
+                        <div class="showcase__dati">
+                            <h3 class="showcase__nome">Lacoste</h3>
+                            <p class="showcase__descrizione">Sconti fino al 30%</p>
+                            <a href="#" class="button-light showcase__scopri">Scopri di più <i class="fas fa-arrow-right button-icon"></i></a>
+                        </div>
+                        <a href="#prodotti" class="clickable-btn"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="prodotti sezione" id="prodotti">
+                <h2 class="sezione-titolo">PRODOTTI</h2>
+                <div class="prodotti__container bd-grid">
+                    <article class="genere">
+                        <img src="/foto/camicia-verde/vestito-1.jpg" alt="" class="genere__img">
+                        <img src="/foto/camicia-verde/vestito-1-z.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Camicia in lino</span>
+                        <span class="genere__prezzo"><span class="genere__scontato">71.90€</span> <span class="genere__da-scontare">89.90€</span></span>
+                        <i class="far fa-heart"></i>
+                        <div class="genere__promozione">-20%</div>
+                        <a href="vestito-1.html" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/cravatta/vestito-1.jpg" alt="" class="genere__img">
+                        <img src="/foto/cravatta/vestito-1-z.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Cravatta nera</span>
+                        <span class="genere__prezzo">27.90€</span>
+                        <i class="far fa-heart"></i>
+                        <a href="vestito-2.html" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/jeans-coppia/vestito-1.jpg" alt="" class="genere__img">
+                        <img src="/foto/jeans-coppia/vestito-1-z.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Jeans chiari</span>
+                        <span class="genere__prezzo">69.90€</span>
+                        <i class="far fa-heart"></i>
+                        <a href="vestito-3.html" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/vestito-rossa/vestito-1.jpg" alt="" class="genere__img">
+                        <img src="/foto/vestito-rossa/vestito-1-z.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Completo donna</span>
+                        <span class="genere__prezzo"><span class="genere__scontato">153.90€</span> <span class="genere__da-scontare">219.90€</span></span>
+                        <i class="far fa-heart"></i>
+                        <div class="genere__promozione">-30%</div>
+                        <a href="vestito-4.html" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/completo-ginnastica/vestito-1.jpg" alt="" class="genere__img">
+                        <img src="/foto/completo-ginnastica/vestito-1-z.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Reggiseno</span>
+                        <span class="genere__prezzo"><span class="genere__scontato">13.90€</span> <span class="genere__da-scontare">14.90€</span></span>
+                        <i class="far fa-heart"></i>
+                        <div class="genere__promozione">-10%</div>
+                        <a href="vestito-5.html" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/giacca-marrone/vestito-1.jpg" alt="" class="genere__img">
+                        <img src="/foto/giacca-marrone/vestito-1-z.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Giacca in pelle</span>
+                        <span class="genere__prezzo"><span class="genere__scontato">455.90€</span> <span class="genere__da-scontare">479.90€</span></span>
+                        <i class="far fa-heart"></i>
+                        <div class="genere__promozione">-5%</div>
+                        <a href="vestito-6.html" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/completo-ballerina/vestito-1.jpg" alt="" class="genere__img">
+                        <img src="/foto/completo-ballerina/vestito-1-z.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Gonna lunga</span>
+                        <span class="genere__prezzo"><span class="genere__scontato">41.90€</span> <span class="genere__da-scontare">69.90€</span></span>
+                        <i class="far fa-heart"></i>
+                        <div class="genere__promozione">-40%</div>
+                        <a href="vestito-7.html" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/camicia-jeans/vestito-1.jpg" alt="" class="genere__img">
+                        <img src="/foto/camicia-jeans/vestito-1-z.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Camicia jeans</span>
+                        <span class="genere__prezzo">129.90€</span>
+                        <i class="far fa-heart"></i>
+                        <a href="vestito-8.html" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/altre-foto/pexels-amina-filkins-5560019.jpg" alt="" class="genere__img">
+                        <img src="/foto/altre-foto/pexels-amina-filkins-5560019 (1).jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Maglia bambino</span>
+                        <span class="genere__prezzo">37.90€</span>
+                        <i class="far fa-heart"></i>
+                        <a href="#" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/altre-foto/pexels-anna-shvets-5325899 (1).jpg" alt="" class="genere__img">
+                        <img src="/foto/altre-foto/pexels-anna-shvets-5325899.jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">T-shirt striato</span>
+                        <span class="genere__prezzo">19.90€</span>
+                        <i class="far fa-heart"></i>
+                        <a href="#" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/altre-foto/pexels-alena-shekhovtcova-6995715.jpg" alt="" class="genere__img">
+                        <img src="/foto/altre-foto/pexels-alena-shekhovtcova-6995715 (1).jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Leggins</span>
+                        <span class="genere__prezzo">18.90€</span>
+                        <i class="far fa-heart"></i>
+                        <a href="#" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                    <article class="genere">
+                        <img src="/foto/altre-foto/pexels-cottonbro-6320077.jpg" alt="" class="genere__img">
+                        <img src="/foto/altre-foto/pexels-cottonbro-6320077 (1).jpg" alt="" class="genere__img-nascosta">
+                        <span class="genere__nome">Stivali in pelle</span>
+                        <span class="genere__prezzo"><span class="genere__scontato">229.90€</span> <span class="genere__da-scontare">269.90€</span></span>
+                        <i class="far fa-heart"></i>
+                        <div class="genere__promozione">-15%</div>
+                        <a href="#" class="clickable-btn"></a>
+                        <!--<a href="" class="button-light">Acquista <i class="fas fa-arrow-right button-icon"></i></a>-->
+                    </article>
+                </div>
+            </section>
+            <section class="clienti sezione" id="info">
+                <h2 class="sezione-titolo">INFO</h2>
+                <div class="clienti__container bd-grid">
+                    <div class="clienti__data">
+                        <img src="/foto/altre-foto/user-1.png" alt="" class="clienti__img">
+                        <h3 class="clienti__titolo">Luisa Alfonsi</h3>
+                        <p class="clienti__descrizione">"Ottimo servizio, sono rimasta davvero soddistatta."</p>
+                        <p class="clienti__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                    </div>
+                    <div class="clienti__data">
+                        <img src="/foto/altre-foto/user-2.png" alt="" class="clienti__img">
+                        <h3 class="clienti__titolo">Mario Rossi</h3>
+                        <p class="clienti__descrizione">"Prodotti di alta qualità a prezzi davvero competitivi."</p>
+                        <p class="clienti__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    </div>
+                    <div class="clienti__data">
+                        <img src="/foto/altre-foto/user-3.png" alt="" class="clienti__img">
+                        <h3 class="clienti__titolo">Sara Bertini</h3>
+                        <p class="clienti__descrizione">"Ogni ordine che faccio arriva sempre puntuale."</p>
+                        <p class="clienti__rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                    </div>
+                </div>
+                <div class="info__container bd-grid">
+                    <div class="info__data">
+                        <div class="info__icona"><i class="fas fa-truck"></i></div>
+                        <h3 class="info__titolo">Consegna gratis</h3>
+                        <p class="info__descrizione">Per ordini superiori a 99€</p>
+                    </div>
+                    <div class="info__data">
+                        <div class="info__icona"><i class="fas fa-headset"></i></div>
+                        <h3 class="info__titolo">Assistenza 24/7</h3>
+                        <p class="info__descrizione">Con te in ogni momento</p>
+                    </div>
+                    <div class="info__data">
+                        <div class="info__icona"><i class="fas fa-sync"></i></div>
+                        <h3 class="info__titolo">100% Rimborso</h3>
+                        <p class="info__descrizione">Richiedibile entro 30 giorni</p>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter sezione">
+                <div class="newsletter__container bd-grid">
+                    <div>
+                        <h3 class="newsletter__titolo">Iscriviti ed ottieni <br> un 10% di sconto</h3>
+                        <p class="newsletter__descrizione">Sconto applicabile su tutti i prodotti!</p>
+                    </div>
+                    <form action="" class="newsletter__iscrizione">
+                        <input type="text" placeholder="@email.com" class="newsletter__input">
+                        <a href="#" class="button">Iscriviti</a>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer footer__sezione">
+            <div class="footer__container bd-grid">
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Z-STORE</h3>
+                    <p class="footer__descrizione">Capi di qualità a prezzi convenienti.</p>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Esplora</h3>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#novità" class="footer__link">Novità</a></li>
+                        <li><a href="#saldi" class="footer__link">Saldi</a></li>
+                        <li><a href="#prodotti" class="footer__link">Prodotti</a></li>
+                        <li><a href="#info" class="footer__link">Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Contattaci</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Supporto sui prodotti</a></li>
+                        <li><a href="#" class="footer__link">Chiamaci</a></li>
+                        <li><a href="#" class="footer__link">Servizi autorizzati</a></li>
+                        <li><a href="#" class="footer__link">F.A.Q.</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <p class="footer__copyright">ZIHAO ZHANG &#169;2021</p>
+        </footer>
+    </body>
+
+    <script src="script.js"></script>
+</html>

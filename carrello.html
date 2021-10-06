@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Zalex1902">
+        <meta name="description" content="Z-STORE l' e-commerce n. 1 in Italia">
+        <meta name="keywords" content="Z-STORE, e-commerce, moda, moda uomo, moda donna, moda bambino, vestiti, shopping online">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Z-STORE | Carrello</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2ad52fa6a6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="l-header" id="header">
+            <nav class="nav bd-grid">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-th"></i>
+                </div>
+                <a href="index.html" class="nav__logo">Z-STORE</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__lista">
+                        <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#novità" class="nav__link">Novità</a></li>
+                        <li class="nav__item"><a href="index.html#saldi" class="nav__link">Saldi</a></li>
+                        <li class="nav__item"><a href="index.html#prodotti" class="nav__link">Prodotti</a></li>
+                        <li class="nav__item"><a href="index.html#info" class="nav__link">Info</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Carrello</a></li>
+                    </ul>
+                </div>
+                <div class="nav__user">
+                    <a href="profilo.html" class="nav__user-link"><i class="fas fa-user"></i></a>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <section class="carrello carrello__sezione">
+                <h2 class="sezione-titolo">CARRELLO</h2>
+                <div class="carrello__container cr-grid">
+                    <table>
+                        <tr>
+                            <th>Prodotto</th>
+                            <th>Quantità</th>
+                            <th>Subtotale</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="carrello__info">
+                                    <a href="vestito-1.html"><img src="/foto/camicia-verde/vestito-1.jpg" alt=""></a>
+                                    <div class="carrello__dati">
+                                        <a href="vestito-1.html"><p class="carrello__nome">Camicia in lino</p></a>
+                                        <p class="carrello__prezzo">Prezzo: 71.90€</p>
+                                        <a href="#" class="carrello__btn">Rimuovi</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <!--<td class="carrello__inp">
+                                <div class="carrello__input">
+                                    <span class="prossimo" onclick="prosNum()"></span>
+                                    <span class="precedente" onclick="precNum()"></span>
+                                    <div id="box">
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </td>-->
+                            <!--<td>
+                                <div class="carrello__input">
+                                    <button class="decrementa"> - </button>
+                                    <input type="number" min="0" max="99" step="1" value="0" id="carrello__number" readonly>
+                                    <button class="incrementa"> + </button>
+                                </div>
+                            </td>-->
+                            <td>
+                                <select name="" id="">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                    <option value="">7</option>
+                                    <option value="">8</option>
+                                    <option value="">9</option>
+                                </select>
+                            </td>
+                            <td>71.90€</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="carrello__info">
+                                    <a href="vestito-4.html"><img src="/foto/vestito-rossa/vestito-1.jpg" alt=""></a>
+                                    <div class="carrello__dati">
+                                        <a href="vestito-4.html"><p class="carrello__nome">Completo donna</p></a>
+                                        <p class="carrello__prezzo">Prezzo: 153.90€</p>
+                                        <a href="#" class="carrello__btn">Rimuovi</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                    <option value="">7</option>
+                                    <option value="">8</option>
+                                    <option value="">9</option>
+                                </select>
+                            </td>
+                            <td>153.90€</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="carrello__info">
+                                    <a href="#"><img src="/foto/altre-foto/pexels-amina-filkins-5560019.jpg" alt=""></a>
+                                    <div class="carrello__dati">
+                                        <a href="#"><p class="carrello__nome">Maglia bambino</p></a>
+                                        <p class="carrello__prezzo">Prezzo: 37.90€</p>
+                                        <a href="#" class="carrello__btn">Rimuovi</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                    <option value="">7</option>
+                                    <option value="">8</option>
+                                    <option value="">9</option>
+                                </select>
+                            </td>
+                            <td>37.90€</td>
+                        </tr>
+                    </table>
+                    <div class="carrello__totale">
+                        <table>
+                            <tr>
+                                <td>Subtotale</td>
+                                <td>263.70€</td>
+                            </tr>
+                            <tr>
+                                <td>Spedizione</td>
+                                <td>0.00€</td>
+                            </tr>
+                            <tr class="totale">
+                                <td>Totale (IVA inclusa)</td>
+                                <td>263.70€</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><a href="#" class="button carrello__acquista">PROCEDI ALL'ACQUISTO</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer footer__sezione footer__carrello">
+            <div class="footer__container bd-grid">
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Z-STORE</h3>
+                    <p class="footer__descrizione">Capi di qualità a prezzi convenienti.</p>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Esplora</h3>
+                    <ul>
+                        <li><a href="index.html#home" class="footer__link">Home</a></li>
+                        <li><a href="index.html#novità" class="footer__link">Novità</a></li>
+                        <li><a href="index.html#saldi" class="footer__link">Saldi</a></li>
+                        <li><a href="index.html#prodotti" class="footer__link">Prodotti</a></li>
+                        <li><a href="index.html#info" class="footer__link">Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Contattaci</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Supporto sui prodotti</a></li>
+                        <li><a href="#" class="footer__link">Chiamaci</a></li>
+                        <li><a href="#" class="footer__link">Servizi autorizzati</a></li>
+                        <li><a href="#" class="footer__link">F.A.Q.</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <p class="footer__copyright">ZIHAO ZHANG &#169;2021</p>
+        </footer>
+    </body>
+
+    <script src="script.js"></script>
+</html>

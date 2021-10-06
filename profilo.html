@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Zalex1902">
+        <meta name="description" content="Z-STORE l' e-commerce n. 1 in Italia">
+        <meta name="keywords" content="Z-STORE, e-commerce, moda, moda uomo, moda donna, moda bambino, vestiti, shopping online">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Z-STORE | Profilo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2ad52fa6a6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="l-header" id="header">
+            <nav class="nav bd-grid">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-th"></i>
+                </div>
+                <a href="index.html" class="nav__logo">Z-STORE</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__lista">
+                        <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#novità" class="nav__link">Novità</a></li>
+                        <li class="nav__item"><a href="index.html#saldi" class="nav__link">Saldi</a></li>
+                        <li class="nav__item"><a href="index.html#prodotti" class="nav__link">Prodotti</a></li>
+                        <li class="nav__item"><a href="index.html#info" class="nav__link">Info</a></li>
+                        <li class="nav__item"><a href="carrello.html" class="nav__link">Carrello</a></li>
+                    </ul>
+                </div>
+                <div class="nav__user">
+                    <a href="#" class="nav__user-link"><i class="fas fa-user"></i></a>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <section class="profilo profilo__sezione">
+                <div class="profilo__container">
+                    <div class="profilo__user profilo__login">
+                        <div class="profilo__img">
+                            <img src="/foto/altre-foto/pexels-cottonbro-4937449 (1).jpg" alt="">
+                            <div class="profilo__img-testo">Un mondo di offerte imperdibili aspetta solo te. Non fartele scappare, entra subito!</div>
+                        </div>
+                        <div class="profilo__form">
+                            <form>
+                                <h2 class="profilo__titolo">Accedi</h2>
+                                <input type="text" placeholder="Inserisci il tuo nome">
+                                <input type="password" placeholder="Inserisci la tua password">
+                                <div class="profilo__passw"><a href="#">Password dimenticata?</a></div>
+                                <input type="submit" value="Accedi">
+                                <p class="profilo__registrati">Non hai un account? <a href="#" onclick="profiloToggleForm();">Registrati</a></p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="profilo__user profilo__register">
+                        <div class="profilo__form">
+                            <form>
+                                <h2 class="profilo__titolo">Registrati</h2>
+                                <input type="text" placeholder="Inserisci il tuo nome">
+                                <input type="email" placeholder="Inserisci la tua email">
+                                <input type="password" placeholder="Inserisci la tua password">
+                                <input type="password" placeholder="Conferma la tua password">
+                                <input type="submit" value="Registrati">
+                                <p class="profilo__registrati">Hai già un account? <a href="#" onclick="profiloToggleForm();">Accedi</a></p>
+                            </form>
+                        </div>
+                        <div class="profilo__img">
+                            <img src="/foto/altre-foto/pexels-tuấn-kiệt-jr-1382731.jpg" alt="">
+                            <div class="profilo__img-testo">Tutti i giorni la moda migliore a portata di click. Non perderti queste opportunità, registrati adesso!</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer footer__sezione footer__profilo">
+            <div class="footer__container bd-grid">
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Z-STORE</h3>
+                    <p class="footer__descrizione">Capi di qualità a prezzi convenienti.</p>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Esplora</h3>
+                    <ul>
+                        <li><a href="index.html#home" class="footer__link">Home</a></li>
+                        <li><a href="index.html#novità" class="footer__link">Novità</a></li>
+                        <li><a href="index.html#saldi" class="footer__link">Saldi</a></li>
+                        <li><a href="index.html#prodotti" class="footer__link">Prodotti</a></li>
+                        <li><a href="index.html#info" class="footer__link">Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__titolo">Contattaci</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Supporto sui prodotti</a></li>
+                        <li><a href="#" class="footer__link">Chiamaci</a></li>
+                        <li><a href="#" class="footer__link">Servizi autorizzati</a></li>
+                        <li><a href="#" class="footer__link">F.A.Q.</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <p class="footer__copyright">ZIHAO ZHANG &#169;2021</p>
+        </footer>
+    </body>
+
+    <script src="script.js"></script>
+</html>
