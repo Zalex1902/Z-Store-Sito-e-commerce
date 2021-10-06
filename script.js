@@ -23,7 +23,7 @@ function linkAzione() {
 }
 navLink.forEach(n => n.addEventListener("click", linkAzione));
 
-/*SCROLL*/ /*modificalo?*/
+/*SCROLL*/
 
 const sezione = document.querySelectorAll("section[id]");
 
@@ -47,7 +47,7 @@ function scrollAttivo() {
     })
 }
 
-/*CAMBIA COLORE HEADER*/ /*modificalo?*/
+/*CAMBIA COLORE HEADER*/
 
 window.onscroll = () => {
     const nav = document.getElementById("header")
@@ -105,29 +105,6 @@ var repeat = function(activeClass) {
     repeater();
 }
 repeat();
-
-/*selettore numero input*/
-
-/*var numeri = document.getElementById("box");
-for (let xi = 0; xi < 100; xi++) {
-    var span = document.createElement("span");
-    span.textContent = i;
-    numeri.appendChild(span);
-}
-var num = numeri.getElementsByTagName("span");
-var index = 0;
-
-function prosNum() {
-    num[index].style.display = "none";
-    index = (index + 1) % num.length;
-    num[index].style.display = "initial";
-}
-
-function precNum() {
-    num[index].style.display = "none";
-    index = (index - 1 + num.length) % num.length;
-    num[index].style.display = "initial";
-}*/
 
 /*galleria prodotti*/
 
